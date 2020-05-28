@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: #303960;
+}
+
+body {
+	background: #a8df65;
+}
+
+h1 {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 80%;
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.timer-box {
+	background: white;
+	padding: 2rem;
+	margin: 1rem;
+	box-shadow: 0px 0px 10px #888;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 4rem;
+}
+
+.caption {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.completed {
+	font-size: 2rem;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+}
